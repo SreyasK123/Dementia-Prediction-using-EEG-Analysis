@@ -118,16 +118,6 @@ Three classical ML classifiers were trained and evaluated on the extracted EEG f
 - Class weight balancing for FTD/Normal imbalance (23 vs 29 subjects)
 - Strength: High accuracy, built-in regularization
 
-### 5.4 Comparison Results
-
-| Model | Accuracy | AUC-ROC | F1 Score | Training Time |
-|-------|----------|---------|----------|---------------|
-| SVM (RBF) | 84.2% | 0.891 | 0.838 | Fast |
-| Random Forest | 86.7% | 0.912 | 0.861 | Medium |
-| **XGBoost** | **89.1%** | **0.934** | **0.887** | Medium |
-
-> **Winner: XGBoost** achieved the best performance across all metrics and was selected for TinyML compression and deployment.
-
 ---
 
 ## 6. TinyML Compression
